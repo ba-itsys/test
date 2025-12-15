@@ -2,4 +2,4 @@
 
 This is a test repo to explore with release-please.
 
-Hello World.
+Hello World, once more!
