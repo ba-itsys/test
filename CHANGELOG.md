@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0](https://github.com/ba-itsys/test/compare/v1.2.0-26.4...v2.0.0) (2025-12-15)
+
+
+### Bug Fixes
+
+* update README.md ([6581619](https://github.com/ba-itsys/test/commit/6581619f54dad6de36142d6094efea066419f9c1))
+
 ## [1.2.0-26.4](https://github.com/ba-itsys/test/compare/v1.0.0...v1.2.0-26.4) (2025-12-05)
 
 
