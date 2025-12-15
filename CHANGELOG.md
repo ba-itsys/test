@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/ba-itsys/test/compare/v2.0.0...v2.1.0) (2025-12-15)
+
+
+### Features
+
+* more hello world ([b1a437b](https://github.com/ba-itsys/test/commit/b1a437b103286e5ae93292ddfc27cf7febd1b0fa))
+
 ## [2.0.0](https://github.com/ba-itsys/test/compare/v1.2.0-26.4...v2.0.0) (2025-12-15)
 
 
