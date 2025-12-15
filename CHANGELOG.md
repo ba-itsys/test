@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.0](https://github.com/ba-itsys/test/compare/v2.1.0...v3.0.0) (2025-12-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* update doc.md
+
+### Bug Fixes
+
+* add docs ([22a7eed](https://github.com/ba-itsys/test/commit/22a7eed3de533387000edaa68b971de4c98e01a9))
+* update doc.md ([e3e55ad](https://github.com/ba-itsys/test/commit/e3e55ad3c46bd6969b5553a8dd10840bb21ab4ba))
+
 ## [2.1.0](https://github.com/ba-itsys/test/compare/v2.0.0...v2.1.0) (2025-12-15)
 
 
