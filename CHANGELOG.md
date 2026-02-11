@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/ba-itsys/test/compare/v3.0.0...v3.1.0) (2026-02-11)
+
+
+### Features
+
+* digidplus ([3092429](https://github.com/ba-itsys/test/commit/3092429cce23f427eaec9ea19b070f0ceea1a342))
+
 ## [3.0.0](https://github.com/ba-itsys/test/compare/v2.1.0...v3.0.0) (2025-12-15)
 
 
