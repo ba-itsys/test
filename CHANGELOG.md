@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.3.0](https://github.com/ba-itsys/test/compare/v3.2.0...v3.3.0) (2026-02-16)
+
+
+### Features
+
+* merge SNAPSHOT PRs automatically ([d0910dd](https://github.com/ba-itsys/test/commit/d0910dd87537711c902a16078b987b9866f91f8f))
+
+
+### Dependencies
+
+* **deps:** bump com.google.guava:guava from 33.4.6-jre to 33.5.0-jre ([373686e](https://github.com/ba-itsys/test/commit/373686e0b74b5e5877c95f8bcb917eaff6134ed6))
+
 ## [3.2.0](https://github.com/ba-itsys/test/compare/v3.1.0...v3.2.0) (2026-02-16)
 
 
