@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.2](https://github.com/ba-itsys/test/compare/v3.3.1...v3.3.2) (2026-02-16)
+
+
+### Bug Fixes
+
+* missing checkout in ci ([3b5f307](https://github.com/ba-itsys/test/commit/3b5f3073ecdf94cdabdb16f6f68efe8fcfa0a7a4))
+
 ## [3.3.1](https://github.com/ba-itsys/test/compare/v3.3.0...v3.3.1) (2026-02-16)
 
 
