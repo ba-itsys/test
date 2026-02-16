@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/ba-itsys/test/compare/v3.1.0...v3.2.0) (2026-02-16)
+
+
+### Features
+
+* combine dependabot commits with release-please ([291d374](https://github.com/ba-itsys/test/commit/291d3742d1ae553423a5e6b46b4b95155ea82a34))
+
 ## [3.1.0](https://github.com/ba-itsys/test/compare/v3.0.0...v3.1.0) (2026-02-11)
 
 
