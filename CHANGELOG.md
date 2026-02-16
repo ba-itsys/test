@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.1](https://github.com/ba-itsys/test/compare/v3.3.0...v3.3.1) (2026-02-16)
+
+
+### Bug Fixes
+
+* incorrect if condition in ci-file ([9bfe5c2](https://github.com/ba-itsys/test/commit/9bfe5c2d6cb085dffab27ec98ff1296c56c87239))
+
 ## [3.3.0](https://github.com/ba-itsys/test/compare/v3.2.0...v3.3.0) (2026-02-16)
 
 
