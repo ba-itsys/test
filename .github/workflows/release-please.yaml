@@ -32,7 +32,7 @@ jobs:
 
       - name: Merge SNAPSHOT-PR automatically
         if: |
-          steps.release.outputs.prs_created == 'true' && 
+          steps.release-please.outputs.prs_created == 'true' && 
           contains(fromJSON(steps.release-please.outputs.pr || '{}').labels, 'autorelease: snapshot')
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
