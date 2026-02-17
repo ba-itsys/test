@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/ba-itsys/test/compare/v3.3.2...v3.4.0) (2026-02-17)
+
+
+### Features
+
+* create ci.yaml ([c033d3a](https://github.com/ba-itsys/test/commit/c033d3a8f916add5a24c25fb04d1a25adf2ddd85))
+
 ## [3.3.2](https://github.com/ba-itsys/test/compare/v3.3.1...v3.3.2) (2026-02-16)
 
 
