@@ -3,7 +3,7 @@
 
     <groupId>de.arbeitsagentur.test</groupId>
     <artifactId>test</artifactId>
-    <version>3.3.3-SNAPSHOT</version>
+    <version>3.4.0</version>
 
     <dependencies>
         <dependency>
