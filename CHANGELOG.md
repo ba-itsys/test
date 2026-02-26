@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.0](https://github.com/ba-itsys/test/compare/v3.4.0...v3.5.0) (2026-02-26)
+
+
+### Features
+
+* update README.md ([c56624a](https://github.com/ba-itsys/test/commit/c56624a29cd40df74cdc13ebfa68742df8d4bfcc))
+
 ## [3.4.0](https://github.com/ba-itsys/test/compare/v3.3.2...v3.4.0) (2026-02-17)
 
 
