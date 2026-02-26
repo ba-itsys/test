@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.7.0](https://github.com/ba-itsys/test/compare/v3.6.0...v3.7.0) (2026-02-26)
+
+
+### Features
+
+* add commitlint ([caa3207](https://github.com/ba-itsys/test/commit/caa32078fdd24532e004a9c32e641a8345f76eb3))
+
+
+### Bug Fixes
+
+* **ci:** cache config ([574a017](https://github.com/ba-itsys/test/commit/574a01780283eed1efc94a2c0a4fa6297b8e3dde))
+
 ## [3.6.0](https://github.com/ba-itsys/test/compare/v3.5.0...v3.6.0) (2026-02-26)
 
 
