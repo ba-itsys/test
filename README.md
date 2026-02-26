@@ -20,3 +20,5 @@ const CHANGELOG_SECTIONS = [
     {type: 'ci', section: 'Continuous Integration', hidden: true},
 ];
 ```
+
+update readme
