@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.0](https://github.com/ba-itsys/test/compare/v3.5.0...v3.6.0) (2026-02-26)
+
+
+### Features
+
+* remove unnecessary cli flag ([4272e58](https://github.com/ba-itsys/test/commit/4272e58c6468a0bb054b48bcd588c6bf02655300))
+
 ## [3.5.0](https://github.com/ba-itsys/test/compare/v3.4.0...v3.5.0) (2026-02-26)
 
 
