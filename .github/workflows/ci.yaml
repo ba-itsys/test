@@ -39,5 +39,9 @@ jobs:
           npm --version
           npx commitlint --version
 
+      - name: Setup default config
+        run: |
+          echo "export default { extends: ['@commitlint/config-conventional'] };" > commitlint.config.mjs
+
       - name: Validate PR commits with commitlint
         run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
