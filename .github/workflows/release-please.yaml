@@ -44,4 +44,4 @@ jobs:
           PR_NUMBER: ${{ fromJSON(steps.release-please.outputs.pr || '{}').number }}
         run: |
           echo "Merging PR $PR_NUMBER (SNAPSHOT)"
-          gh pr merge --rebase --admin "$PR_NUMBER"
+          gh pr merge --rebase "$PR_NUMBER"
