@@ -32,12 +32,12 @@ jobs:
 
       - uses: actions/checkout@v6
         if: |
-          steps.release-please.outputs.prs_created == 'true' && 
+          steps.release-please.outputs.prs_created == 'true' &&
           contains(fromJSON(steps.release-please.outputs.pr || '{}').labels, 'autorelease: snapshot')
 
       - name: Merge SNAPSHOT-PR automatically
         if: |
-          steps.release-please.outputs.prs_created == 'true' && 
+          steps.release-please.outputs.prs_created == 'true' &&
           contains(fromJSON(steps.release-please.outputs.pr || '{}').labels, 'autorelease: snapshot')
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
