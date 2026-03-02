@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.7.0](https://github.com/ba-itsys/test/compare/v3.6.0...v3.7.0) (2026-03-02)
+
+
+### Features
+
+* add commitlint ([caa3207](https://github.com/ba-itsys/test/commit/caa32078fdd24532e004a9c32e641a8345f76eb3))
+* call reusable workflow for commitlint ([5972cfe](https://github.com/ba-itsys/test/commit/5972cfe5a5eb3ae4c0a27fb96f460b57649404e5))
+* configure commitlint ([d300d42](https://github.com/ba-itsys/test/commit/d300d42810b5d7a831efa6d6ff6a8eead0e1a7dc))
+* run commitlint only on prs ([9a87d97](https://github.com/ba-itsys/test/commit/9a87d97ca06c0da398d5998113a0fb5b2c93686c))
+
+
+### Bug Fixes
+
+* **ci:** cache config ([574a017](https://github.com/ba-itsys/test/commit/574a01780283eed1efc94a2c0a4fa6297b8e3dde))
+* reusable worklfow must be rooted in .github/workflows ([323e1a4](https://github.com/ba-itsys/test/commit/323e1a4de20ce9cddff54117f88d0b192f11ead7))
+
+
+### Dependencies
+
+* downgrade guava version ([84530af](https://github.com/ba-itsys/test/commit/84530af6c12c0d8e9db98028781e5db383a41c02))
+
 ## [3.6.0](https://github.com/ba-itsys/test/compare/v3.5.0...v3.6.0) (2026-02-26)
 
 
