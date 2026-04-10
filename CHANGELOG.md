@@ -1,5 +1,32 @@
 # Changelog
 
+## [3.8.0](https://github.com/ba-itsys/test/compare/v3.7.0...v3.8.0) (2026-04-10)
+
+
+### Features
+
+* test release-please config with release-type=simple ([850bcda](https://github.com/ba-itsys/test/commit/850bcdad5fcd4c1b6991c4835c58022a50bf23bf))
+
+
+### Bug Fixes
+
+* fiddle with .release-please-manifest.json ([1bec9e8](https://github.com/ba-itsys/test/commit/1bec9e8180aa25d14dbc07111aef91fe23bb49be))
+* fiddle with release-please-config.json ([e08401b](https://github.com/ba-itsys/test/commit/e08401b77a61bcaddf292b04627819ed7dd36ecb))
+* fiddle with release-please-config.json ([206a4e5](https://github.com/ba-itsys/test/commit/206a4e5a48522d1236d5cb309675d17b36b26612))
+* missing .release-please-manifest.json ([f5d3043](https://github.com/ba-itsys/test/commit/f5d3043bd74e0e803372dc2991a7bcc347b18254))
+* release-please-config.json ([8118b59](https://github.com/ba-itsys/test/commit/8118b59a78921ec6cd489b271b9e4be9587fd7d5))
+* update release-please config with schema and packages setup ([0d62073](https://github.com/ba-itsys/test/commit/0d620733267781b98722c81a90aa00b5b1e1000d))
+
+
+### Dependencies
+
+* empty commit, this should show up in the changelog ([c8e7589](https://github.com/ba-itsys/test/commit/c8e758955c2a0cbc43e419bf5067f20371ac05d9))
+
+
+### Miscellaneous Chores
+
+* empty commit ([31e0b35](https://github.com/ba-itsys/test/commit/31e0b358380044b2d45a2e2175355c8e48109532))
+
 ## [3.7.0](https://github.com/ba-itsys/test/compare/v3.6.0...v3.7.0) (2026-03-02)
 
 
