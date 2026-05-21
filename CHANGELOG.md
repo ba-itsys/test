@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.8.1](https://github.com/ba-itsys/test/compare/v3.8.0...v3.8.1) (2026-05-21)
+
+
+### Dependencies
+
+* **deps:** bump com.google.guava:guava from 33.4.1-jre to 33.5.0-jre ([12d599b](https://github.com/ba-itsys/test/commit/12d599b85f1918808ae5250be73b0c1b39b1ef21))
+
 ## [3.8.0](https://github.com/ba-itsys/test/compare/v3.7.0...v3.8.0) (2026-05-06)
 
 
