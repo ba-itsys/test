@@ -21,4 +21,4 @@ const CHANGELOG_SECTIONS = [
 ];
 ```
 
-update readme
+update readme.
