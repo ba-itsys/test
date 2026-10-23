@@ -3,7 +3,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 name: Dependabot auto-merge
-on: pull_request_target
+on: pull_request
 
 permissions:
   contents: write
@@ -17,17 +17,18 @@ jobs:
     steps:
 
       # Generate a token for the GitHub App
-      - uses: actions/create-github-app-token@v3
-        id: app-token
-        with:
-          client-id: ${{ vars.RELEASE_PLEASE_CLIENT_ID }}
-          private-key: ${{ secrets.RELEASE_PLEASE_APP_PRIVATE_KEY }}
+      #      - uses: actions/create-github-app-token@v3
+      #        id: app-token
+      #        with:
+      #          client-id: ${{ vars.RELEASE_PLEASE_CLIENT_ID }}
+      #          private-key: ${{ secrets.RELEASE_PLEASE_APP_PRIVATE_KEY }}
 
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@v3
         with:
-          github-token: ${{ steps.app-token.outputs.token }}
+          #github-token: ${{ steps.app-token.outputs.token }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - run: echo "${{ steps.metadata.outputs.dependency-names }}"
 
@@ -41,4 +42,5 @@ jobs:
           gh pr merge --auto --rebase "$PR_URL"
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
-          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          #GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
