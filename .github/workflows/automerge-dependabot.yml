@@ -32,9 +32,9 @@ jobs:
       - run: echo "${{ steps.metadata.outputs.dependency-names }}"
 
       - name: Enable auto-merge for Dependabot PRs
+        # contains(steps.metadata.outputs.dependency-names, 'com.google.guava:guava')
         if: |
-          contains(steps.metadata.outputs.dependency-names, 'com.google.guava:guava') 
-          && (steps.metadata.outputs.update-type == 'version-update:semver-minor'
+          (steps.metadata.outputs.update-type == 'version-update:semver-minor'
                 || steps.metadata.outputs.update-type == 'version-update:semver-patch')
         run: |
           gh pr review --approve "$PR_URL"
