@@ -55,6 +55,14 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Source: https://mvnrepository.com/artifact/io.pivotal.spring.cloud/spring-cloud-services-starter-config-client -->
+        <dependency>
+            <groupId>io.pivotal.spring.cloud</groupId>
+            <artifactId>spring-cloud-services-starter-config-client</artifactId>
+            <version>4.3.1</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
 
 </project>
